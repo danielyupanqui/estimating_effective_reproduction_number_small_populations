@@ -1,10 +1,10 @@
-/*
+/*********************************************************************************
   Title:          Elasticity of Rt Variability with Respect to Active Cases
   Task:           Regression and Visualization for Provinces and Health Regions 
   Author:         Daniel Yupanqui
   Initial update: 10/12/2025
   Last update:    10/12/2025
-*/
+*********************************************************************************/
 
 *1. Load and prepare provincial data
 {
