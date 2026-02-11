@@ -44,7 +44,8 @@
 
 *1. Install ados
 {
-  ssc install rscript	
+  ssc install rscript
+  ssc install egenmore
 }
 
 *2. Defining globals 
