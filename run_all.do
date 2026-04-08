@@ -33,7 +33,6 @@
 {
   clear all
   set more off
-  version 19.0
 
  *Define project root from execution location
   global root "`c(pwd)'"
