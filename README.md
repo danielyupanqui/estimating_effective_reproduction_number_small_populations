@@ -25,21 +25,27 @@ Overall, this work demonstrates that **non-parametric kernel regression** provid
 
 ## Replication Instructions
 
-Do not change the working directory manually.
-This pipeline is designed to use a portable directory structure, meaning all file paths are defined relative to the project root. You can place the project folder anywhere on your system and run **run_all.do** without modifying paths or settings. All required directories and file references are handled internally. You need to have installed in your device the softwares **STATA** and **R**.
-Follow the next steps for replicate this project:
+This repository uses a portable directory structure. Users should not manually modify the working directory or file paths. All paths are defined relative to the project root, allowing the project folder to be placed in any location on the user’s system without requiring path adjustments.
 
-1. Download the folders and files from this GitHub repository, i.e. **Code** → **Downlad ZIP**.
+To replicate the analysis, users must have both Stata and R installed.
 
-2. Save the project folder in any location on your computer.
+Follow these steps to reproduce the results:
 
-3. Open **Stata**.
+1. Download the release archive associated with this repository.
 
-4. In Stata, open [**run_all.do**](https://github.com/danielyupanqui/effective_reproduction_number_small_populations/blob/main/run_all.do):
-   - Double-click the file, or  
-   - Use **File → Open**
+2. Extract and save the project folder in any location on your computer.
 
-5. Run the pipeline by typing: do run_all.do
+3. Open Stata.
+
+4. Open the file `run_all.do`:
+   - either by double-clicking the file,
+   - or through File → Open.
+
+5. Run the pipeline by executing:
+
+   do run_all.do
+
+The pipeline automatically handles directory structure, file references, and execution order.
 
 ## Data
 
